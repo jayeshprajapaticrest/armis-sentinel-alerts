@@ -27,6 +27,10 @@
         "ArmisAlertsTableName":{
             "type": "string",
             "defaultValue": "<ArmisAlertsTableName>"
+        },
+        "ArmisSchedule":{
+            "type": "string",
+            "defaultValue": "<Cron Expression>"
         }
     },
     "variables": {
@@ -159,6 +163,7 @@
                         "ArmisSecretKey": "[parameters('ArmisSecretKey')]",
                         "ArmisURL": "[parameters('ArmisURL')]",
                         "ArmisAlertsTableName": "[parameters('ArmisAlertsTableName')]",
+                        "Schedule": "[parameters('ArmisSchedule')]",
                         "WEBSITE_RUN_FROM_PACKAGE": "https://github.com/jayeshprajapaticrest/armis-sentinel-alerts/blob/main/ArmisAlertSentinelConnector.zip?raw=true"
                     }
                 }
