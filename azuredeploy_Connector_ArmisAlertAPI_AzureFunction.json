@@ -32,7 +32,7 @@
             "type": "string",
             "defaultValue": "<Cron Expression>"
         },
-        "Avoid Duplicates":{
+        "AddOneSecond":{
             "type": "bool",
             "defaultValue": true
         }
@@ -168,7 +168,7 @@
                         "ArmisURL": "[parameters('ArmisURL')]",
                         "ArmisAlertsTableName": "[parameters('ArmisAlertsTableName')]",
                         "Schedule": "[parameters('ArmisSchedule')]",
-                        "AddOneSecond": "[parameters('AddOneSecond')]",
+                        "AvoidDuplicates": "[parameters('AddOneSecond')]",
                         "WEBSITE_RUN_FROM_PACKAGE": "https://github.com/jayeshprajapaticrest/armis-sentinel-alerts/blob/Armis-Latest-Build-23052022/ArmisAlertSentinelConnector.zip?raw=true"
                     }
                 }
