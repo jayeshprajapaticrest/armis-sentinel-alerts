@@ -32,7 +32,7 @@
             "type": "string",
             "defaultValue": "<Cron Expression>"
         },
-        "Avoid Duplicates (if true, may cause data loss)":{
+        "Avoid Duplicates":{
             "type": "bool",
             "defaultValue": true
         }
