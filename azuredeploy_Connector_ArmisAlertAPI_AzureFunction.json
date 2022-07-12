@@ -34,7 +34,9 @@
         },
         "AddOneSecond":{
             "type": "bool",
-            "defaultValue": true
+            "defaultValue": true,
+            "label": "Example drop down",
+            "toolTip": "This is a tool tip"
         }
     },
     "variables": {
@@ -168,7 +170,7 @@
                         "ArmisURL": "[parameters('ArmisURL')]",
                         "ArmisAlertsTableName": "[parameters('ArmisAlertsTableName')]",
                         "Schedule": "[parameters('ArmisSchedule')]",
-                        "AvoidDuplicates": "[parameters('AddOneSecond')]",
+                        "AddOneSecond": "[parameters('AddOneSecond')]",
                         "WEBSITE_RUN_FROM_PACKAGE": "https://github.com/jayeshprajapaticrest/armis-sentinel-alerts/blob/Armis-Latest-Build-23052022/ArmisAlertSentinelConnector.zip?raw=true"
                     }
                 }
