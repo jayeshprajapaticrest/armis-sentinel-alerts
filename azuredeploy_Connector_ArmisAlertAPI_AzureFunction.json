@@ -32,7 +32,7 @@
             "type": "string",
             "defaultValue": "<Cron Expression>"
         },
-        "AddOneSecond":{
+        "AddOneSecond1":{
             "type": "bool",
             "defaultValue": true,
             "label": "Example drop down",
