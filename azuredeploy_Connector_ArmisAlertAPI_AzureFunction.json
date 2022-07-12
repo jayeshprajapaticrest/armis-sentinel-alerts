@@ -35,7 +35,6 @@
         "AddOneSecond":{
             "type": "bool",
             "defaultValue": true,
-            "label": "Example drop down",
             "toolTip": "This is a tool tip"
         }
     },
