@@ -3,9 +3,9 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "FunctionName": {
-            "defaultValue": "ArmisAlerts",
+            "defaultValue": "Alerts",
             "minLength": 1,
-            "maxLength": 15,
+            "maxLength": 11,
             "type": "string"
         },
         "WorkspaceID": {
@@ -27,6 +27,15 @@
         "ArmisAlertsTableName":{
             "type": "string",
             "defaultValue": "<ArmisAlertsTableName>"
+        },
+        "ArmisSchedule":{
+            "type": "string",
+            "defaultValue": "<Cron Expression>"
+        },
+        "AvoidDuplicates":{
+            "type": "bool",
+            "defaultValue": true,
+            "toolTip": "This is a tool tip"
         }
     },
     "variables": {
@@ -159,7 +168,9 @@
                         "ArmisSecretKey": "[parameters('ArmisSecretKey')]",
                         "ArmisURL": "[parameters('ArmisURL')]",
                         "ArmisAlertsTableName": "[parameters('ArmisAlertsTableName')]",
-                        "WEBSITE_RUN_FROM_PACKAGE": "https://github.com/jayeshprajapaticrest/armis-sentinel-alerts/blob/main/ArmisAlertSentinelConnector.zip?raw=true"
+                        "Schedule": "[parameters('ArmisSchedule')]",
+                        "AvoidDuplicates": "[parameters('AvoidDuplicates')]",
+                        "WEBSITE_RUN_FROM_PACKAGE": "https://github.com/jayeshprajapaticrest/armis-sentinel-alerts/blob/main/ArmisAlerts.zip?raw=true"
                     }
                 }
             ]
