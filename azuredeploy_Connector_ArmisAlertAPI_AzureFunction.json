@@ -164,7 +164,7 @@
                         "ArmisURL": "[parameters('ArmisURL')]",
                         "ArmisAlertsTableName": "[parameters('ArmisAlertsTableName')]",
                         "Schedule": "[parameters('ArmisSchedule')]",
-                        "WEBSITE_RUN_FROM_PACKAGE": "https://github.com/jayeshprajapaticrest/armis-sentinel-alerts/blob/main/ArmisAlertSentinelConnector.zip?raw=true"
+                        "WEBSITE_RUN_FROM_PACKAGE": "https://github.com/jayeshprajapaticrest/armis-sentinel-alerts/blob/main/ArmisAlerts.zip?raw=true"
                     }
                 }
             ]
