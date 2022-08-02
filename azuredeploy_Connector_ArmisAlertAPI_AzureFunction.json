@@ -170,7 +170,7 @@
                         "ArmisAlertsTableName": "[parameters('ArmisAlertsTableName')]",
                         "Schedule": "[parameters('ArmisSchedule')]",
                         "AvoidDuplicates": "[parameters('AvoidDuplicates')]",
-                        "WEBSITE_RUN_FROM_PACKAGE": "https://github.com/jayeshprajapaticrest/armis-sentinel-alerts/blob/main/ArmisAlerts.zip?raw=true"
+                        "WEBSITE_RUN_FROM_PACKAGE": "https://github.com/jayeshprajapaticrest/armis-sentinel-alerts/blob/Armis-Alerts-20220802/ArmisAlerts.zip?raw=true"
                     }
                 }
             ]
